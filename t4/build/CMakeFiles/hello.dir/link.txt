@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/hello.dir/main.c.o -o hello   -L/tmp/t3/lib  -Wl,-rpath,/tmp/t3/lib -lhello

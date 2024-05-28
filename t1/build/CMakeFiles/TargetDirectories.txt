@@ -1,0 +1,3 @@
+/home/wujilei/workspace/cmake/t1/build/CMakeFiles/HELLO.dir
+/home/wujilei/workspace/cmake/t1/build/CMakeFiles/edit_cache.dir
+/home/wujilei/workspace/cmake/t1/build/CMakeFiles/rebuild_cache.dir

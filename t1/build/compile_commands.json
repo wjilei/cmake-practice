@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/wujilei/workspace/cmake/t1/build",
+  "command": "/usr/bin/gcc -g -o CMakeFiles/HELLO.dir/main.c.o -c /home/wujilei/workspace/cmake/t1/main.c",
+  "file": "/home/wujilei/workspace/cmake/t1/main.c",
+  "output": "CMakeFiles/HELLO.dir/main.c.o"
+}
+]
