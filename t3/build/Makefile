@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/wujilei/workspace/cmake/t3/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -187,6 +197,19 @@ hello_static/fast:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/build
 .PHONY : hello_static/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +222,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... Test"
 	@echo "... hello"
 	@echo "... hello_static"
 .PHONY : help

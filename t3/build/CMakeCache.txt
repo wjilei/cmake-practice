@@ -104,7 +104,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/wujilei/workspace/cmake/t3/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/tmp/t3
+CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -224,6 +224,9 @@ HELLOLIB_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 HELLOLIB_SOURCE_DIR:STATIC=/home/wujilei/workspace/cmake/t3
 
+//Path to a library.
+LIBCHECK:FILEPATH=/usr/lib/libcheck.so
+
 
 ########################
 # INTERNAL cache entries
@@ -331,7 +334,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

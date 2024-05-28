@@ -2,5 +2,5 @@
 #define HELLO_H
 #include <stdio.h>
 
-void HelloFunc();
+char *HelloFunc();
 #endif

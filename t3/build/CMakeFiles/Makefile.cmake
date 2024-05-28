@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeSystem.cmake"
   "/home/wujilei/workspace/cmake/t3/lib/CMakeLists.txt"
+  "/home/wujilei/workspace/cmake/t3/test/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -42,10 +43,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lib/CMakeFiles/hello.dir/DependInfo.cmake"
   "lib/CMakeFiles/hello_static.dir/DependInfo.cmake"
+  "test/CMakeFiles/Test.dir/DependInfo.cmake"
   )

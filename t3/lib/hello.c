@@ -1,5 +1,5 @@
 #include "hello.h"
 
-void HelloFunc() {
-  printf("Hello, World!\n");
+char *HelloFunc() {
+  return "Hello, World!";
 }
